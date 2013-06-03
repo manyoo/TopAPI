@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": "",
-  "author": "Eric Wong",
+  "author": "Eric Wong <ericsyw@gmail.com>",
   "license": "BSD",
   "keywords": ["taobao", "api", "top", "top-api"],
   "dependencies": {
