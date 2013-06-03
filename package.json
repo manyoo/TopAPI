@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "",
+  "repository": "https://github.com/manyoo/TopAPI.git",
   "author": "Eric Wong <ericsyw@gmail.com>",
   "license": "BSD",
   "keywords": ["taobao", "api", "top", "top-api"],
