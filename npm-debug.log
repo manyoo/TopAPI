@@ -1,0 +1,137 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@1.2.21
+3 info using node@v0.10.7
+4 verbose publish [ '.' ]
+5 verbose read json /Users/EricWong/programming/javascript/TopAPI/package.json
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '.',
+8 verbose parsed url   path: '.',
+8 verbose parsed url   href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . /Users/EricWong/.npm/3a52ce78-.lock
+11 verbose read json package.json
+12 verbose tar pack [ '/var/folders/t5/_l7vj1152nn59wtsbs9qtlxm0000gs/T/npm-17098/1370254594815-0.6561394361779094/tmp.tgz',
+12 verbose tar pack   '.' ]
+13 verbose tarball /var/folders/t5/_l7vj1152nn59wtsbs9qtlxm0000gs/T/npm-17098/1370254594815-0.6561394361779094/tmp.tgz
+14 verbose folder .
+15 info prepublish TopAPI@0.0.1
+16 silly lockFile 3a52ce78- .
+17 verbose lock . /Users/EricWong/.npm/3a52ce78-.lock
+18 silly lockFile d2deecf1-94815-0-6561394361779094-tmp-tgz /var/folders/t5/_l7vj1152nn59wtsbs9qtlxm0000gs/T/npm-17098/1370254594815-0.6561394361779094/tmp.tgz
+19 verbose lock /var/folders/t5/_l7vj1152nn59wtsbs9qtlxm0000gs/T/npm-17098/1370254594815-0.6561394361779094/tmp.tgz /Users/EricWong/.npm/d2deecf1-94815-0-6561394361779094-tmp-tgz.lock
+20 silly lockFile 3a52ce78- .
+21 silly lockFile 3a52ce78- .
+22 silly lockFile d2deecf1-94815-0-6561394361779094-tmp-tgz /var/folders/t5/_l7vj1152nn59wtsbs9qtlxm0000gs/T/npm-17098/1370254594815-0.6561394361779094/tmp.tgz
+23 silly lockFile d2deecf1-94815-0-6561394361779094-tmp-tgz /var/folders/t5/_l7vj1152nn59wtsbs9qtlxm0000gs/T/npm-17098/1370254594815-0.6561394361779094/tmp.tgz
+24 verbose tar unpack /var/folders/t5/_l7vj1152nn59wtsbs9qtlxm0000gs/T/npm-17098/1370254594815-0.6561394361779094/tmp.tgz
+25 silly lockFile ae091f75-94815-0-6561394361779094-package /var/folders/t5/_l7vj1152nn59wtsbs9qtlxm0000gs/T/npm-17098/1370254594815-0.6561394361779094/package
+26 verbose lock /var/folders/t5/_l7vj1152nn59wtsbs9qtlxm0000gs/T/npm-17098/1370254594815-0.6561394361779094/package /Users/EricWong/.npm/ae091f75-94815-0-6561394361779094-package.lock
+27 silly lockFile d2deecf1-94815-0-6561394361779094-tmp-tgz /var/folders/t5/_l7vj1152nn59wtsbs9qtlxm0000gs/T/npm-17098/1370254594815-0.6561394361779094/tmp.tgz
+28 verbose lock /var/folders/t5/_l7vj1152nn59wtsbs9qtlxm0000gs/T/npm-17098/1370254594815-0.6561394361779094/tmp.tgz /Users/EricWong/.npm/d2deecf1-94815-0-6561394361779094-tmp-tgz.lock
+29 silly gunzTarPerm modes [ '755', '644' ]
+30 silly gunzTarPerm extractEntry package.json
+31 silly gunzTarPerm extractEntry README.md
+32 silly gunzTarPerm extractEntry topapi.js
+33 silly gunzTarPerm extractEntry lib/restapi.js
+34 silly gunzTarPerm extractEntry lib/taobaoke.js
+35 silly gunzTarPerm extractEntry lib/tmall.js
+36 verbose read json /var/folders/t5/_l7vj1152nn59wtsbs9qtlxm0000gs/T/npm-17098/1370254594815-0.6561394361779094/package/package.json
+37 silly lockFile ae091f75-94815-0-6561394361779094-package /var/folders/t5/_l7vj1152nn59wtsbs9qtlxm0000gs/T/npm-17098/1370254594815-0.6561394361779094/package
+38 silly lockFile ae091f75-94815-0-6561394361779094-package /var/folders/t5/_l7vj1152nn59wtsbs9qtlxm0000gs/T/npm-17098/1370254594815-0.6561394361779094/package
+39 silly lockFile d2deecf1-94815-0-6561394361779094-tmp-tgz /var/folders/t5/_l7vj1152nn59wtsbs9qtlxm0000gs/T/npm-17098/1370254594815-0.6561394361779094/tmp.tgz
+40 silly lockFile d2deecf1-94815-0-6561394361779094-tmp-tgz /var/folders/t5/_l7vj1152nn59wtsbs9qtlxm0000gs/T/npm-17098/1370254594815-0.6561394361779094/tmp.tgz
+41 verbose from cache /var/folders/t5/_l7vj1152nn59wtsbs9qtlxm0000gs/T/npm-17098/1370254594815-0.6561394361779094/package/package.json
+42 verbose tar pack [ '/Users/EricWong/.npm/TopAPI/0.0.1/package.tgz',
+42 verbose tar pack   '/var/folders/t5/_l7vj1152nn59wtsbs9qtlxm0000gs/T/npm-17098/1370254594815-0.6561394361779094/package' ]
+43 verbose tarball /Users/EricWong/.npm/TopAPI/0.0.1/package.tgz
+44 verbose folder /var/folders/t5/_l7vj1152nn59wtsbs9qtlxm0000gs/T/npm-17098/1370254594815-0.6561394361779094/package
+45 silly lockFile ae091f75-94815-0-6561394361779094-package /var/folders/t5/_l7vj1152nn59wtsbs9qtlxm0000gs/T/npm-17098/1370254594815-0.6561394361779094/package
+46 verbose lock /var/folders/t5/_l7vj1152nn59wtsbs9qtlxm0000gs/T/npm-17098/1370254594815-0.6561394361779094/package /Users/EricWong/.npm/ae091f75-94815-0-6561394361779094-package.lock
+47 silly lockFile a699b7c2-ong-npm-TopAPI-0-0-1-package-tgz /Users/EricWong/.npm/TopAPI/0.0.1/package.tgz
+48 verbose lock /Users/EricWong/.npm/TopAPI/0.0.1/package.tgz /Users/EricWong/.npm/a699b7c2-ong-npm-TopAPI-0-0-1-package-tgz.lock
+49 silly lockFile ae091f75-94815-0-6561394361779094-package /var/folders/t5/_l7vj1152nn59wtsbs9qtlxm0000gs/T/npm-17098/1370254594815-0.6561394361779094/package
+50 silly lockFile ae091f75-94815-0-6561394361779094-package /var/folders/t5/_l7vj1152nn59wtsbs9qtlxm0000gs/T/npm-17098/1370254594815-0.6561394361779094/package
+51 silly lockFile a699b7c2-ong-npm-TopAPI-0-0-1-package-tgz /Users/EricWong/.npm/TopAPI/0.0.1/package.tgz
+52 silly lockFile a699b7c2-ong-npm-TopAPI-0-0-1-package-tgz /Users/EricWong/.npm/TopAPI/0.0.1/package.tgz
+53 silly lockFile c591f4b2-ricWong-npm-TopAPI-0-0-1-package /Users/EricWong/.npm/TopAPI/0.0.1/package
+54 verbose lock /Users/EricWong/.npm/TopAPI/0.0.1/package /Users/EricWong/.npm/c591f4b2-ricWong-npm-TopAPI-0-0-1-package.lock
+55 silly lockFile c591f4b2-ricWong-npm-TopAPI-0-0-1-package /Users/EricWong/.npm/TopAPI/0.0.1/package
+56 silly lockFile c591f4b2-ricWong-npm-TopAPI-0-0-1-package /Users/EricWong/.npm/TopAPI/0.0.1/package
+57 verbose tar unpack /Users/EricWong/.npm/TopAPI/0.0.1/package.tgz
+58 silly lockFile c591f4b2-ricWong-npm-TopAPI-0-0-1-package /Users/EricWong/.npm/TopAPI/0.0.1/package
+59 verbose lock /Users/EricWong/.npm/TopAPI/0.0.1/package /Users/EricWong/.npm/c591f4b2-ricWong-npm-TopAPI-0-0-1-package.lock
+60 silly lockFile a699b7c2-ong-npm-TopAPI-0-0-1-package-tgz /Users/EricWong/.npm/TopAPI/0.0.1/package.tgz
+61 verbose lock /Users/EricWong/.npm/TopAPI/0.0.1/package.tgz /Users/EricWong/.npm/a699b7c2-ong-npm-TopAPI-0-0-1-package-tgz.lock
+62 silly gunzTarPerm modes [ '755', '644' ]
+63 silly gunzTarPerm extractEntry package.json
+64 silly gunzTarPerm extractEntry README.md
+65 silly gunzTarPerm extractEntry topapi.js
+66 silly gunzTarPerm extractEntry lib/restapi.js
+67 silly gunzTarPerm extractEntry lib/taobaoke.js
+68 silly gunzTarPerm extractEntry lib/tmall.js
+69 verbose read json /Users/EricWong/.npm/TopAPI/0.0.1/package/package.json
+70 silly lockFile c591f4b2-ricWong-npm-TopAPI-0-0-1-package /Users/EricWong/.npm/TopAPI/0.0.1/package
+71 silly lockFile c591f4b2-ricWong-npm-TopAPI-0-0-1-package /Users/EricWong/.npm/TopAPI/0.0.1/package
+72 silly lockFile a699b7c2-ong-npm-TopAPI-0-0-1-package-tgz /Users/EricWong/.npm/TopAPI/0.0.1/package.tgz
+73 silly lockFile a699b7c2-ong-npm-TopAPI-0-0-1-package-tgz /Users/EricWong/.npm/TopAPI/0.0.1/package.tgz
+74 verbose from cache /Users/EricWong/.npm/TopAPI/0.0.1/package/package.json
+75 verbose chmod /Users/EricWong/.npm/TopAPI/0.0.1/package.tgz 644
+76 verbose chown /Users/EricWong/.npm/TopAPI/0.0.1/package.tgz [ 505, 20 ]
+77 silly lockFile 3a52ce78- .
+78 silly publish { name: 'TopAPI',
+78 silly publish   version: '0.0.1',
+78 silly publish   description: 'Simple Node.js client library for the Taobao Open Platform(TOP) API',
+78 silly publish   main: 'topapi.js',
+78 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+78 silly publish   repository: { type: 'git', url: 'https://github.com/manyoo/TopAPI.git' },
+78 silly publish   author: { name: 'Eric Wong', email: 'ericsyw@gmail.com' },
+78 silly publish   license: 'BSD',
+78 silly publish   keywords: [ 'taobao', 'api', 'top', 'top-api' ],
+78 silly publish   dependencies: { request: '2.14.0' },
+78 silly publish   readme: '# TopAPI (Taobao Open Platform API client library for node.js)\n\nThis library is a very simple sdk for TOP APIs, and it only support Taobaoke and Tmall APIs right now. It can be extended simply as needed.\n\nAs a Node.js library, it\'s asynchronous.\n\n##Install\ninstall easily with npm:\n\n\tnpm install TopAPI\n\n##Usage\n1, import the module:\n\n\tvar TopAPI = require(\'topapi\');\n\n2, Initialize the library with your App Key and Secret, as well as your taobaoke_id:\n\n\tTopAPI.init(key, secret, taobaoke_id);\n3, Now you can call the supported APIs very easily:\n\n\tTopAPI.taobaoke_items_get({keyword: \'iphone\'}, function(result) {\n\t\tconsole.log(result);\n\t});\n   All API methods require two parameters: an options object and a callback function. The option object should include the user-level parameters for the corresponding API call.',
+78 silly publish   readmeFilename: 'README.md',
+78 silly publish   bugs: { url: 'https://github.com/manyoo/TopAPI/issues' },
+78 silly publish   _id: 'TopAPI@0.0.1',
+78 silly publish   dist: { shasum: '5cf485581d10883cf881d859d4e3eb8a7ad49bad' },
+78 silly publish   _from: '.' }
+79 verbose url raw TopAPI
+80 verbose url resolving [ 'https://registry.npmjs.org/', './TopAPI' ]
+81 verbose url resolved https://registry.npmjs.org/TopAPI
+82 info trying registry request attempt 1 at 18:17:36
+83 http PUT https://registry.npmjs.org/TopAPI
+84 http 403 https://registry.npmjs.org/TopAPI
+85 info trying registry request attempt 1 at 18:17:41
+86 http PUT https://registry.npmjs.org/TopAPI
+87 http 403 https://registry.npmjs.org/TopAPI
+88 error publish Failed PUT response 403
+89 error Error: forbidden New packages must have all-lowercase names: TopAPI
+89 error     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:269:14)
+89 error     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/index.js:148:22)
+89 error     at Request.EventEmitter.emit (events.js:98:17)
+89 error     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/index.js:876:14)
+89 error     at Request.EventEmitter.emit (events.js:117:20)
+89 error     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/index.js:827:12)
+89 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+89 error     at _stream_readable.js:910:16
+89 error     at process._tickCallback (node.js:415:13)
+90 error If you need help, you may report this log at:
+90 error     <http://github.com/isaacs/npm/issues>
+90 error or email it to:
+90 error     <npm-@googlegroups.com>
+91 error System Darwin 12.3.0
+92 error command "node" "/usr/local/bin/npm" "publish"
+93 error cwd /Users/EricWong/programming/javascript/TopAPI
+94 error node -v v0.10.7
+95 error npm -v 1.2.21
+96 verbose exit [ 1, true ]

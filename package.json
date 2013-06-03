@@ -1,5 +1,5 @@
 {
-  "name": "TopAPI",
+  "name": "topapi",
   "version": "0.0.1",
   "description": "Simple Node.js client library for the Taobao Open Platform(TOP) API",
   "main": "topapi.js",
