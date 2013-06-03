@@ -7,7 +7,7 @@ As a Node.js library, it's asynchronous.
 ##Install
 install easily with npm:
 
-	npm install TopAPI
+	npm install topapi
 
 ##Usage
 1, import the module:
