@@ -8,5 +8,9 @@
   },
   "repository": "",
   "author": "Eric Wong",
-  "license": "BSD"
+  "license": "BSD",
+  "keywords": ["taobao", "api", "top", "top-api"],
+  "dependencies": {
+    "request": "2.14.0"
+  }
 }
